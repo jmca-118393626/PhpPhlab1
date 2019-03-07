@@ -11,6 +11,8 @@
 <center>
 <h1 style="color:White;">Welcome to My IS1113 Project</h1>
 <h3 style="color:white;">Jane Mc Allen ~ 118393626</h3>
+<a href="https://jmca-phpproject10.herokuapp.com/">Heroku</a>
+<a href="https://github.com/jmca-118393626/PhpPhlab1">Github</a>
 </div>
 <br> </br> <meta charset="utf-8" />
         <title>Consulting Services</title>
