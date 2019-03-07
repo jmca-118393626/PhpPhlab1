@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: navy;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {  
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {  
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+h1{text-align: center;}
+    ul.b{list-style-type: square;
+        }
+        h1{text-align: center;}
+    ul.c{list-style-type: square;
+        }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Sports</h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#" style="float:right"></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+        <h1>Some of the sports I play..</h1>
+      <h2>Gaelic Football</h2>
+      <h5></h5>
+      <div><img src='glanmire.png' width='200' height='200'></div>
+      <p>Glanmire Ladies Football Club</p>
+      <p>I play football with Glanmire, I have played since I was five years old and I consider it my favourite sport. Here are some of the titles that I have won.</p>
+    <ul class="b">
+    <li>Junior A' All Ireland Champions 2018</li>
+    <li>Junior A' Munster Champions 2018</li>
+    <li>Junior A' County Champions 2018</li>
+    <li> Minor A' County Champions 2018</li>
+</ul>
+    </div>
+    <div class="card">
+      <h2>Camogie</h2>
+      <h5></h5>
+      <div><img src='sars.jpg' width='200' height='200'></div>
+      <p>Sarsfield Camogie Club</p>
+      <p>I also play camogie with my local club Sars, I have been playing camogie ever since I was six years old and have enjoyed every moment of it! here are some of the titles that I have won with Sars. </p>
+    <ul class="c">
+        <li>Senior B' County Champions 2017</li>
+    <li>Intermediate County Champions 2016</li>
+    <li>Minor A' County Champions 2018</li>
+    <li> Minor A' County Champions 2017</li>
+   
+</ul>
+    </div>
+  </div>
+    
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>My name is Jane and I am an athletic teenager that loves to play sports and exercise regularly</p>
+    </div>
+    <div class="card">
+      <h3>Other Sports I have played..</h3>
+      <div class=""><p>BasketBall</p></div>
+      <div class=""><p>Swimming</p></div>
+      <div class=""><p>Tennis</p></div>
+      <div class=""><p>Soccer</p></div>
+      <div class=""><p>Tag Rugby</p></div>
+    </div>
+    <div class="card">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2></h2>
+  <br>
+<h3><a href ="http://localhost:8000/tiltedpage_scroll_demo.html">Back </a></h3>
+<br>
+</div>
+
+</body>
+</html>
